@@ -3,6 +3,10 @@ killall waybar
 
 waybar
 
+# restart blueman applet
+killall blueman-applet
+blueman-applet
+
 # restart notification daemon (swaync)
 killall swaync
 
