@@ -36,8 +36,3 @@ sleep 2
 # start xdg-desktop-portal
 /usr/lib/xdg-desktop-portal &
 sleep 1
-
-# restart dock
-killall nwg-dock-hyprland
-
-nwg-dock-hyprland -d
